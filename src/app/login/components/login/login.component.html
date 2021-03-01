@@ -1,0 +1,49 @@
+<figure>
+    <img class="log" src="../../../../assets/log.png" alt="">
+</figure>
+<div class="container">
+  <section class="detail">
+    <p class="one-p">Join thousands of learners from around the world</p>
+
+    <p class="two-p">
+      Master web development by making real-life projects.
+      There are multiple
+      paths for you to choose
+    </p>
+  </section>
+    <form [formGroup]="form" (ngSubmit)="send($event)">
+        <div class="input">
+            <input class="email-icon" type="image" src="../../../../assets/email.png" alt="email">
+            <input formControlName="email" class="email" placeholder="Email" type="email" id="" />
+        </div>
+        <div class="input">
+            <input class="password-icon" type="image" src="../../../../assets/padlock.png" alt="password">
+            <input formControlName="password" class="password" placeholder="Password" type="password" />
+        </div>
+        <button class="button" type="submit">Start coding now</button>
+    </form>
+    <p class="social-p">or continue with these social profile</p>
+    <div class="social-profile">
+        <a class="first-a" href="https://www.google.com" >
+            <figure>
+                <img src="../../../../assets/Google.svg" alt="google-page">
+            </figure>
+        </a>
+        <a href="https://www.google.com" >
+            <figure>
+                <img src="../../../../assets/Facebook.svg" alt="facebook-page">
+            </figure>
+        </a>
+        <a href="https://www.google.com" >
+            <figure>
+                <img src="../../../../assets/Twitter.svg" alt="twitter-page">
+            </figure>
+        </a>
+        <a href="https://www.google.com" >
+            <figure>
+                <img src="../../../../assets/Gihub.svg" alt="github-page">
+            </figure>
+        </a>
+    </div>
+    <p class="member-p">Already a member?<a class="log" href="">Login</a></p>
+</div>
