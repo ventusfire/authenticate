@@ -1,3 +1,43 @@
+<div class="container-header">
+    <img class="log" src="../../../../assets/log.png" alt="logo-del-diseñador">
+    <img class="user-img" src="../../../../assets/email.png" alt="imagen usuario"><p class="name-img">{{name}}</p>
+</div>
+<div class="container-2">
+    <h2 class="perosonal-p">Personal info</h2>
+    <p class="personal-p-2">Basic info, your name and photo</p>
+</div>
+
 <div class="container">
-    
+    <div class="container-3">
+        <h2 class="profile">profile</h2>
+        <div class="container-button">
+            <button (click)="edit($event)">Edit</button>
+        </div>
+        <p class="warning">some info may be visible to<br>
+            ather people</p>
+    </div>
+    <div class="container-info">
+            <div class="container-photo">
+                <p class="photo-name">PHOTO</p>
+            <figure>
+                <img class="photo" src="../../../../assets/email.png" alt="imagen usuario">
+            </figure>
+        </div>
+        <div class="container-name">
+            <p class="name">NAME</p>
+            <p>{{name}}</p>
+        </div>
+        <div class="container-bio">
+            <p class="name-bio">BIO</p>
+            <p>{{biography}}</p>
+        </div>
+        <div class="conatiner-email">
+            <p class="name-bio">EMAIL</p>
+            <p>{{email}}</p>
+        </div>
+        <div class="container-password">
+            <p class="name-password">PASSWORD</p>
+            <p>{{password}}</p>
+        </div>
+    </div>
 </div>

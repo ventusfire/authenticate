@@ -1,0 +1,120 @@
+.log{
+    width: 100px;
+    height: 12.66px;
+    margin: 14px 4px;
+}
+.name-img{
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafb;
+    height: auto;
+    margin-top: -12px;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+.user-img{
+    width: 32px;
+    height: 36.69px;
+}
+.container-2{
+    width: auto;
+    text-align: center;
+    margin-top: -7.15px;
+    background-color: #fafafb;
+    padding-top: 25px;
+}
+.perosonal-p{
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    color: black;
+}
+.perosonal-p-2{
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    color: black;
+    padding-bottom: 0px 0px 0px;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40.4px;
+}
+.profile{
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    color: black;
+    margin-left: 22.38px;
+}
+.warning{
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    color: black;
+    margin-left: 22.38px;
+    grid-column: 1/3;
+}
+.container-button{
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    background-color: transparent;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 95.34px;
+    height: 38px;
+    margin-right:48.84px;
+    cursor: pointer;
+}
+button:active{
+    border: none;
+}
+.container-info{
+    display: flex;
+    flex-direction: column;
+}
+.container-photo, 
+.container-name,
+.container-bio,
+.conatiner-email,
+.container-password{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans';
+    color: #bdbdbb;
+    font-weight: 500;
+    height: 89.39px;
+    border-bottom: 1px solid #e0e0e0 ;
+    background-color: #fafafb;
+}
+.photo-name,
+.name,
+.name-bio,
+.name-bio,
+.name-password{
+    margin-top: 40px;
+    margin-left: 20.61px;
+}
+.photo{
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+}
+@media(min-width: 600px){
+    .container{
+        height: auto;
+        width: 580.54px;
+        margin: 0 auto;
+        border-radius: 12px;
+        border: 1px solid #e0e0e0;
+    }
+    .name-img{
+        font-family: 'Noto Sans';
+        font-weight: 700;   
+    }
+}
