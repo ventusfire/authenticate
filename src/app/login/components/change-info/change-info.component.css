@@ -17,6 +17,10 @@
     margin-left: 10px;
     color: #2d9cdb;
 }
+a{
+    color: #2d9cdb;
+    text-decoration: none;
+}
 .back-p{
     margin-top: 3px;
 }
@@ -66,7 +70,7 @@ div > form > input, textarea{
     border: 1px solid #828282;
     background-color: transparent;
     height: 52px;
-    width: 150px;
+    width: 250px;
     padding-left: 18.21px;
     margin-left: 20.93px;
 }
@@ -86,6 +90,9 @@ button{
     font-family: 'Noto Sans';
     margin: 24px 0 0 20.93px;
 }
+textarea{
+    padding: 17px 0 5px 18.21px;
+}
 @media(min-width: 600px){
     .container{
         border: 1px solid #e0e0e0;
@@ -94,7 +101,20 @@ button{
         width: 600px;
         height: auto;
     }
-    .div > form > input, textarea{
+    .container-2{
+        text-align: left;
+        padding-left: 48.64px;
+        margin-top: 10px;
+    }
+    div > form > p, button {
+        margin-left: 48.64px;
+    }
+    div > form > input, textarea{
         width: 416.93px;
+        margin-left: 48.64px;
+    }
+    .back{
+        width: 600px;
+        margin: 0 auto;
     }
 }
